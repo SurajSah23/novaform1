@@ -22,7 +22,7 @@ const ChildAgeSelector = () => {
       key={age}
       onClick={() => handleAgeSelect(age)}
       className={`
-        w-16 h-16 rounded-full border-2 border-purple-300 bg-white
+        w-16 h-16 rounded-full border-2 border-purple-300 bg-white hover:bg-violet-500
         flex items-center justify-center text-lg font-semibold text-gray-800
         transition-all duration-200 hover:scale-105 hover:shadow-lg
         ${selectedAge === age ? 'bg-purple-100 border-purple-500 scale-105' : ''}
@@ -69,6 +69,7 @@ const ChildAgeSelector = () => {
         )}
       </div>
     </div>
+    
   )
 }
 
