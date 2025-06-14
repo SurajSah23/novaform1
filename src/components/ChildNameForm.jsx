@@ -26,7 +26,7 @@ const ChildNameForm = () => {
   }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-50 px-4 sm:px-6 md:px-8">
+    <div className="flex items-center justify-center px-4 sm:px-6 md:px-8">
       <div className="bg-white rounded-3xl p-6 sm:p-8 shadow-2xl w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-xl">
         <h1 className="text-xl sm:text-2xl font-bold text-gray-800 text-center mb-6 sm:mb-8">
           Child's name
